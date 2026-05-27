@@ -1,0 +1,18 @@
+import { StorageService } from '../services/StorageService.js';
+
+
+
+
+export class EditTaskPage {
+  static updateTask(id: number, title: string): void {
+    const tasks = StorageService.getTasks();
+
+    const updatedTasks = tasks.map((task) =>
+      task.id === id
+        ? { ...task, title }
+        : task
+    );
+
+    StorageService.saveTasks(updatedTasks);
+  }
+}

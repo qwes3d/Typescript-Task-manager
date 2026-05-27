@@ -1,0 +1,1 @@
+{"version":3,"file":"TaskUI.d.ts","sourceRoot":"","sources":["../../src/ui/TaskUI.ts"],"names":[],"mappings":"AAAA,OAAO,KAAK,EAAE,IAAI,EAAE,MAAM,mBAAmB,CAAC;AAK9C,qBAAa,MAAM;IACjB,MAAM,CAAC,WAAW,CAAC,KAAK,EAAE,IAAI,EAAE,GAAG,IAAI;CA+BxC"}
