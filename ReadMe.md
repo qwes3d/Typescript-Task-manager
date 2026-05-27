@@ -56,13 +56,13 @@ npm install
 2. Compile TypeScript
 npx tsc
 3. Run Local Server
-npx live-server
+npx live-server pages
 4. Open the Application
 http://127.0.0.1:8080/pages/index.html
 
 GitHub Repository
 
-https://github.com/qwes3d/typescript-task-manager
+https://github.com/qwes3d/Typescript-Task-Manager
 
 Video Demonstration
 
